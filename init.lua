@@ -1,1 +1,1 @@
-require('config.lazy').setup()
+require('config.lazy')
