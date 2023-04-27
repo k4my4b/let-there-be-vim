@@ -23,6 +23,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup({
-	require('config.packages.rose-pine'),
+	require('config.packages.nordic'),
 	require('config.packages.nvim-tree')
 })
