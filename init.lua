@@ -22,7 +22,4 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-require('lazy').setup({
-	require('plugins.nordic'),
-	require('plugins.nvim-tree')
-})
+require('lazy').setup('plugins')
