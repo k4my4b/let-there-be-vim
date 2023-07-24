@@ -28,9 +28,6 @@ vim.o.undofile = true
 vim.o.ignorecase = true
 vim.o.smartcase = true
 
--- Enable/Disable Single Column Mode
-vim.wo.signcolumn = 'yes'
-
 -- Adjust update time
 vim.o.updatetime = 250
 vim.o.timeoutlen = 300
